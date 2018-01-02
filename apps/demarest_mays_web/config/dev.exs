@@ -11,7 +11,9 @@ config :demarest_mays_web, DemarestMaysWeb.Endpoint,
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
-  watchers: []
+  watchers: [node: ["node_modules/parcel-bundler/bin/cli.js", "watch", "-d", "../priv/static",
+              cd: Path.expand("../assets", __DIR__)]]
+
 
 # ## SSL Support
 #
@@ -39,5 +41,3 @@ config :demarest_mays_web, DemarestMaysWeb.Endpoint,
       ~r{lib/demarest_mays_web/templates/.*(eex)$}
     ]
   ]
-
-
