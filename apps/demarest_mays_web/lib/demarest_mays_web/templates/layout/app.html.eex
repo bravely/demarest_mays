@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello DemarestMays!</title>
+    <title>Jake Demarest Mays</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/demarest_mays.css") %>">
   </head>
 

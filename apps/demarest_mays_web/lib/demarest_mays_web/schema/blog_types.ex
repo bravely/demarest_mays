@@ -5,5 +5,6 @@ defmodule DemarestMaysWeb.Schema.BlogTypes do
     field :id, :id
     field :title, :string
     field :body, :string
+    field :author_name, :string
   end
 end
